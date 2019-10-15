@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.main {
+	/*padding: 200px auto;*/
+	margin: 0px auto;
+	background-color: yellow;
+	padding-top: 5%;
+	width: 100%;
+}
+.gridbox {
+	margin: 50px;
+	background-color: black;
+	width: 45%;
+	padding: 50px;
+	margin: 50px;
+}
+.greybox {
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	margin: 50px;
+	float: left;
+	border-collapse: 
+}
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
